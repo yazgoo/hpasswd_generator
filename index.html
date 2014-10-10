@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="hpasswd_generator.css">
+<script src="javacrypt.js"></script>
+<script src="hpasswd_generator.js"></script>
+<title>Generate password line</title>
+</head>
+<body>
+<div class="other block">hpasswd generator</div>
+<div class=block>
+nickname:<input type=text id=nick /><br/>
+password:<input type=password id=to_crypt /><br/>
+password:<input type=password id=to_validate /><br/>
+<input type=button onclick="hpasswd_generate()"
+value="generate password line"/>
+</div>
+<div id=result class="other block"></div>
+</body>
+</html>
